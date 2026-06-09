@@ -29,6 +29,22 @@ public static class RenderService
             <div class="src"><div class="src-name">monetization path</div><div class="src-tit">Hosted preview planned · Embedded by engagement</div><p>The free surface proves the operator model; the commercial path is an embedded instrument-change audit module for regulated lab workflows.</p></div>
           </div>
         </section>
+        <section class="section">
+          <div class="sh"><h2>Product depth</h2><div class="note">instrument lane · metrology owner · audit signal</div></div>
+          <div class="stack">
+            <div class="src"><div class="src-name">for executives</div><div class="src-tit">A reusable view of instrument-change risk</div><p>The surface shows whether a lab instrument can move safely through reuse, release, or maintenance transition without hiding firmware, calibration, training, audit-trace, or attestation blockers.</p></div>
+            <div class="src"><div class="src-name">for quality and metrology teams</div><div class="src-tit">Every packet keeps its evidence lane intact</div><p>Firmware rationale, calibration recency, SOP acknowledgment, maintenance bridge, audit trail, and final QA attestation remain attached to one accountable lane.</p></div>
+            <div class="src"><div class="src-name">for GTM and product teams</div><div class="src-tit">A credible regulated-infrastructure proof point</div><p>The repo demonstrates how Kinetic Gain converts operational quality pressure into a buyer-readable control plane without publishing regulated data or making certification claims.</p></div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="sh"><h2>What these repos have in common</h2><div class="note">risk · owner · proof · next action</div></div>
+          <div class="stack">
+            <div class="src"><div class="src-name">risk</div><div class="src-tit">The fragile handoff is visible</div><p>Each repo names the failure mode before it becomes a vague escalation, whether the blocker is evidence, timing, ownership, cost, or compliance posture.</p></div>
+            <div class="src"><div class="src-name">owner</div><div class="src-tit">The responsible function stays attached</div><p>Instrument Quality, Metrology Operations, Lab Operations, and Quality Systems remain visible in the decision surface.</p></div>
+            <div class="src"><div class="src-name">proof</div><div class="src-tit">The claim is inspectable</div><p>Static HTML, sample payloads, API routes, screenshots, and verification copy make the work readable for technical and non-technical reviewers.</p></div>
+          </div>
+        </section>
         """
     );
 
@@ -240,7 +256,7 @@ public static class RenderService
             {{{body}}}
             <div class="footer">
               <div>lab-instrument-change-audit · synthetic sample data only</div>
-              <div><a href="https://github.com/mizcausevic-dev/">GitHub</a> · <a href="https://www.linkedin.com/in/mirzacausevic/">LinkedIn</a> · <a href="https://kineticgain.com/">Kinetic Gain</a></div>
+              <div><a href="https://portfolio.kineticgain.com/">Portfolio</a> · <a href="https://suite.kineticgain.com/">Suite</a> · <a href="https://github.com/mizcausevic-dev/lab-instrument-change-audit">Repo</a> · <a href="https://www.linkedin.com/in/mirzacausevic/">LinkedIn</a> · <a href="https://kineticgain.com/">Kinetic Gain</a></div>
               <div>routes: / · /instrument-lane · /change-log · /control-posture · /verification · /docs</div>
             </div>
           </div>

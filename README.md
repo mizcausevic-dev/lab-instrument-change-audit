@@ -24,6 +24,30 @@ This repo is the public proof surface for that pattern:
 - structured JSON endpoints under `/api/*`
 - static Pages export with `robots.txt`, `sitemap.xml`, and `CNAME`
 
+## Product depth
+
+This repo models the operating questions a lab, diagnostics, metrology, or quality leader needs answered before an instrument change is allowed to keep moving:
+
+- Which firmware, calibration, SOP, maintenance, audit-trace, or attestation blocker is still unresolved?
+- Which function owns the next remediation step?
+- Which packet is safe enough for reuse or downstream release review?
+- How can the team show credible instrument-governance depth without exposing regulated data or overstating compliance status?
+
+## What these repos have in common
+
+Kinetic Gain proof surfaces use the same product pattern: `risk`, `owner`, `proof`, and `next action`.
+
+- `risk` names the fragile handoff before it turns into another vague escalation
+- `owner` keeps the accountable function attached to the packet
+- `proof` is inspectable through screenshots, static HTML, sample payloads, and API routes
+- `next action` is readable by operators, buyers, and board-facing reviewers
+
+## Operating workflow
+
+1. Model the instrument lane: classify the synthetic change snapshot and identify the affected instrument-control surface.
+2. Attach evidence posture: connect firmware review, calibration recency, SOP acknowledgement, maintenance continuity, audit trace, and attestation state.
+3. Route the decision: assign the owner, blocker severity, and next safe action before reuse or release review.
+
 ## Screenshots
 
 ![Overview](./screenshots/01-overview.svg)
